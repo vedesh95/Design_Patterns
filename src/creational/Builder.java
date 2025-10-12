@@ -1,4 +1,4 @@
-package creational.builder;
+package creational;
 
 class Meal {
     // demonstrates the Builder pattern

@@ -1,4 +1,4 @@
-package creational.prototype;
+package creational;
 
 interface Prototype extends Cloneable {
     Prototype deepclone();

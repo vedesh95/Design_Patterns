@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational;
 
 public class Logger {
     private Logger(){

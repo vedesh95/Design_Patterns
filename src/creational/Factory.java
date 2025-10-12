@@ -1,4 +1,4 @@
-package creational.factory;
+package creational;
 
 interface Shape {
     void draw();
