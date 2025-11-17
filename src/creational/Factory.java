@@ -1,22 +1,22 @@
 package creational;
 
-interface Shape {
+interface ObjectShape {
     void draw();
 }
-class Rectangle implements Shape {
+class Rectangle implements ObjectShape {
     @Override
     public void draw() {
         System.out.println("Drawing a Rectangle");
     }
 }
-class Circle implements Shape {
+class Circle implements ObjectShape {
     @Override
     public void draw() {
         System.out.println("Drawing a Circle");
     }
 }
 class ShapeFactory {
-    public static Shape getShape(String shapeType) {
+    public static ObjectShape getShape(String shapeType) {
         if (shapeType.equalsIgnoreCase("CIRCLE")) {
             return new Circle();
         } else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
@@ -29,10 +29,10 @@ class ShapeFactory {
 
 public class Factory{
     public static void main(String[] args) {
-        Shape circle = ShapeFactory.getShape("CIRCLE");
+        ObjectShape circle = ShapeFactory.getShape("CIRCLE");
         circle.draw();
 
-        Shape rectangle = ShapeFactory.getShape("RECTANGLE");
+        ObjectShape rectangle = ShapeFactory.getShape("RECTANGLE");
         rectangle.draw();
     }
 }

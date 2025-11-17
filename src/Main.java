@@ -18,14 +18,14 @@ public class Main {
         Bridge
 
         Behavioral Patterns
-        Strategy
+        StrategyPattern
         Observer / Publisher-Subscriber
         Command
         State
         Chain of Responsibility
         Template Method
-        Iterator
-        Mediator
+        IteratorPattern
+        MediatorPattern
         Memento
         * */
     }
