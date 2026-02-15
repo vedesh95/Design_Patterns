@@ -1,32 +1,15 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        /*
-        Creational Patterns
-        Singleton
-        Factory Method
-        Abstract Factory
-        Builder
-        Prototype
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-        Structural Patterns
-        Adapter
-        Decorator
-        Proxy
-        Composite
-        Facade
-        Flyweight
-        Bridge
-
-        Behavioral Patterns
-        StrategyPattern
-        Observer / Publisher-Subscriber
-        Command
-        State
-        Chain of Responsibility
-        Template Method
-        IteratorPattern
-        MediatorPattern
-        Memento
-        * */
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
+        }
     }
 }
